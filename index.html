@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Time Table</title>
+  <style>
+    table { border-collapse: collapse; width: 100%; max-width: 900px; margin: 1rem auto; }
+    caption { font-weight: 600; margin-bottom: .5rem; }
+    th, td { border: 1px solid #ccc; padding: .6rem; text-align: center; }
+    thead th { background: #f3f4f6; }
+    tbody tr:nth-child(even) { background: #fafafa; }
+  </style>
+</head>
+<body>
+  <table>
+    <caption>Class Time Table</caption>
+    <thead>
+      <tr>
+        <th scope="col">Time</th>
+        <th scope="col">Monday</th>
+        <th scope="col">Tuesday</th>
+        <th scope="col">Wednesday</th>
+        <th scope="col">Thursday</th>
+        <th scope="col">Friday</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">09:00–10:00</th>
+        <td>Maths</td>
+        <td>English</td>
+        <td>Physics</td>
+        <td>Chemistry</td>
+        <td>Biology</td>
+      </tr>
+      <tr>
+        <th scope="row">10:00–11:00</th>
+        <td>Physics</td>
+        <td>Maths</td>
+        <td>Computer</td>
+        <td>English</td>
+        <td>History</td>
+      </tr>
+      <tr>
+        <th scope="row">11:00–11:15</th>
+        <td colspan="5">Break</td>
+      </tr>
+      <tr>
+        <th scope="row">11:15–12:15</th>
+        <td>Computer</td>
+        <td>Chemistry</td>
+        <td>Maths</td>
+        <td>Biology</td>
+        <td>English</td>
+      </tr>
+      <tr>
+        <th scope="row">12:15–01:00</th>
+        <td>Sports</td>
+        <td>Library</td>
+        <td>Arts</td>
+        <td>Lab</td>
+        <td>Club</td>
+      </tr>
+    </tbody>
+  </table>
+</body>
+</html>
